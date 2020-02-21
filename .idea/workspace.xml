@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d93ec058-6e0a-4140-9ddc-5fa49898021d" name="Default Changelist" comment="second commit">
+    <list default="true" id="d93ec058-6e0a-4140-9ddc-5fa49898021d" name="Default Changelist" comment="last workspace.xml commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +141,7 @@
       <workItem from="1581685907979" duration="3059000" />
       <workItem from="1581766613453" duration="6301000" />
       <workItem from="1582272199685" duration="2395000" />
+      <workItem from="1582274615847" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1582274270414</created>
@@ -155,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582274354397</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="last workspace.xml commit">
+      <created>1582274812781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582274812781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +173,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="last workspace.xml commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last workspace.xml commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Project_Structure" timestamp="1581768682500">
@@ -175,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="589" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581686069687" />
-    <state x="523" y="118" key="CommitChangelistDialog2" timestamp="1582274490349">
+    <state x="523" y="118" key="CommitChangelistDialog2" timestamp="1582274837055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582274490349" />
+    <state x="523" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582274837055" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1582273559464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
