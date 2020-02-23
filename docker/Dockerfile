@@ -12,8 +12,10 @@ RUN chown -R $APPLICATION_USER /app
 # docker image 실행 user, docker container에서 ktor 계정으로 image 실행
 USER $APPLICATION_USER
 
-#COPY ./build/libs/ktor-first-app-0.0.1-SNAPSHOT.jar /app/ktor-first-app.jar
 COPY ktor-first-app-0.0.1-SNAPSHOT.jar /app/ktor-first-app.jar
+#COPY ./build/libs/ktor-first-app-0.0.1-SNAPSHOT.jar /app/ktor-first-app.jar
+#COPY ktor-first-app-0.0.1-SNAPSHOT.jar /app/ktor-first-app.jar
+#ADD ./build/libs/ktor-first-app-0.0.1-SNAPSHOT.jar /app/ktor-first-app.jar
 
 # Working directory 지정
 WORKDIR /app
