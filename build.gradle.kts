@@ -30,12 +30,12 @@ allprojects {
     subprojects 내의 설정값들은 모든 하위 프로젝트에 적용
  */
 subprojects {
-    version = "0.0.2-SNAPSHOT"
+    //version = "0.0.2-SNAPSHOT"
 }
 
 /*
     project - 특정 프로젝트에 적용 (여기에서는 backend 프로젝트에만 적용 됨)
  */
 project("backend") {
-    version = "0.0.3-SNAPSHOT"
+    //version = "0.0.3-SNAPSHOT"
 }

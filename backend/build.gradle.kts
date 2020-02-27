@@ -3,10 +3,26 @@ val ktor_version: String by project
 
 plugins {
     application
+    id("com.github.johnrengelman.shadow").version("5.2.0")
 }
 application {
-    mainClassName = "io.ktor.server.cio.EngineMain"
+    //mainClassName = "io.ktor.server.cio.EngineMain"
+    mainClassName = "com.example.ApplicationKt"
 }
+
+tasks.withType<Jar> {
+    manifest {
+        attributes(
+            mapOf(
+                "Main-Class" to application.mainClassName
+            )
+        )
+        //archiveBaseName.set("${project.name}-all")
+    }
+}
+
+
+
 repositories {
     jcenter()
 }
